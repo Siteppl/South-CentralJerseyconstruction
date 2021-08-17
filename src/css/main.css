@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+
+#main-container {
+    
+ 
+}
+
+#content-wrapper {
+    padding-top: 4rem;
+   /* see notes below */
+  
+
+    height: 100vh;
+
+    color: #444;
+    
+    background-color: transparent;
+}
+#connect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 2rem;
+}
+#connect2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 2rem;
+}
+#column1 {
+    display: flex;
+    width:  100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#column2 {
+    display: flex;
+    width:  100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#column3 {
+    display: flex;
+    width:  100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#gridoutline { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); 
+    grid-gap: 1em;
+  border-radius: 5px;
+  padding: 30px;
+  font-size: 120%;
+}
+.logo{
+height: 15rem;
+    width: 25rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .logo2 {
+    height: 15rem;
+        width: 15rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      #line {
+          background-color: lightslategrey;
+          width: 1rem;
+          border:rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      }
+
+    #title {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        color: lightslategrey;
+        font-size: 2rem;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+
+    #serivces {
+        
+        justify-content: center;
+        text-align: center;
+    }
+
+    .service {
+        text-align: center;
+        display: flex;
+        padding: 1.5rem;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
