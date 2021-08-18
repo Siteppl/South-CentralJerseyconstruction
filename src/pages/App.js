@@ -1,7 +1,7 @@
 import React from "react";
 import '../css/main.css'
-import reclaimlogo from '../images/logo2.png';
-import tridentlogo from '../images/tridentlogo.png';
+import reclaimlogo from '../Images/logo2.png';
+import tridentlogo from '../Images/tridentlogo.png';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import FadeIn from 'react-fade-in';
 import { Fade } from "@material-ui/core";
