@@ -27,6 +27,12 @@
     height: 5rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     margin: 2rem;
+    
+}
+
+#connect a {
+   
+    color: #f8bd4e
 }
 #connect2{
     display: flex;
@@ -47,6 +53,27 @@
     text-align: center;
     justify-content: flex-start;
 }
+
+#x {
+    color: white;
+    text-shadow: 0 1px 0 rgb(226, 226, 226),
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 rgb(213, 213, 213),
+                 0 4px 0 #cacaca,
+                 0 5px 0 rgb(192, 192, 192),
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0, 0, 0, 0.159),
+                 0 3px 5px rgba(107, 107, 107, 0.2),
+                 0 5px 10px rgba(138, 138, 138, 0.25),
+                 0 10px 10px rgba(119, 119, 119, 0.2),
+                 0 20px 20px rgba(100, 100, 100, 0.15);
+}
+
+
+
+
+
 #column2 {
     display: flex;
     width:  100%;
@@ -59,11 +86,11 @@
 #column3 {
     display: flex;
     width:  100%;
-   
+    
     align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
     text-align: center;
+    justify-content: flex-start;
 }
 #gridoutline { 
     display: grid;
@@ -118,6 +145,31 @@ height: 15rem;
         margin-bottom: 2rem;
       }
 
+      #connecttrident {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        grid-row: 2;
+        width: 13rem;
+        height: 5rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        margin: 2rem;
+      }
+      #connecttrident a {
+        color: rgb(0, 124, 128 );
+    }
+      #connect2trident {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-row: 1;
+        width: 17rem;
+        height: 5rem;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        margin: 2rem;
+      }
+
       #line {
           background-color: lightslategrey;
           width: 1rem;
@@ -127,7 +179,10 @@ height: 15rem;
     #title {
         margin-top: 5rem;
         margin-bottom: 5rem;
-        color: lightslategrey;
+       
+    background: -webkit-linear-gradient(left,  #f8bd4e 45%, rgb(0, 124, 128 ) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
         font-size: 2rem;
         font-family: 'Atkinson Hyperlegible', sans-serif;
     }
@@ -149,4 +204,9 @@ height: 15rem;
         color: lightslategrey;
         opacity: 0.8;
         font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+    .service a {
+        background: -webkit-linear-gradient(left,  #f8bd4e 25%, rgb(0, 124, 128 ) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
