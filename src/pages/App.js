@@ -28,7 +28,7 @@ const App = () => {
          
               <img className='logo' src={reclaimlogo}/>
               {/* <p>Contracting services for the South and Central Jersey areas. We help demo and install anything in your home</p> */}
-              <div id='connect'><a href='reclaimrepairs.com'>Relaimrepairs.com</a></div>
+              <div id='connect'><a href='https://reclaimrepairs.com'>Relaimrepairs.com</a></div>
               <div id='connect2'>Reclaimrepairs@gmail.com</div>
               <div id='connect'>(609) 605-1452 </div>
              Contracting and isurance claim repair service 
@@ -44,7 +44,7 @@ const App = () => {
              <li className='service'>Claims</li>
              <li className='service'>Demo</li>
              <li className='service'>Construction</li>
-            <li className='service'><a href='tridentrestorationnj.com'>Referal Program</a></li>
+            <li className='service'><a href='https://tridentrestorationnj.com'>Referal Program</a></li>
              </FadeIn>
            </ul>
 
@@ -55,7 +55,7 @@ const App = () => {
        
           <img className='logo2' src={tridentlogo}/>
             
-              <div id='connecttrident'><a href='reclaimrepairs.com'>Tridentrestoration.com</a></div>
+              <div id='connecttrident'><a href='https://tridentrestorationnj.com'>Tridentrestoration.com</a></div>
               <div id='connect2trident'>Tridentrestoration3@gmail.com</div>
               <div id='connecttrident'>(609) 605-1452 </div>
 
